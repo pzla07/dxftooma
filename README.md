@@ -89,3 +89,17 @@ Dodatkowe uwagi
 Jeśli planujesz udostępnić aplikację publicznie, rozważ użycie serwera proxy, np. Nginx, do obsługi ruchu HTTPS i przekierowywania ruchu do aplikacji.
 Możesz również skonfigurować firewall (np. ufw) oraz zaktualizować ustawienia bezpieczeństwa serwera, aby zabezpieczyć dostęp do aplikacji.
 Do zarządzania aplikacją produkcyjną rozważ użycie narzędzia jak Gunicorn (dla aplikacji Flask/Django) w połączeniu z Nginx jako serwerem proxy.
+
+const helper = new Helper(<DXF String>)
+
+// The 1-to-1 object representation of the DXF
+console.log('parsed:', helper.parsed)
+
+// Denormalised blocks inserted with transforms applied
+console.log('denormalised:', helper.denormalised)
+
+// Create an SVG
+console.log('svg:', helper.toSVG())
+
+// Create polylines (e.g. to render in WebGL)
+console.log('polylines:', helper.toPolylines())
