@@ -51,55 +51,44 @@ Jeśli chcesz przyczynić się do rozwoju tego projektu, zapraszamy do współpr
 
 Krok 1: Przygotowanie serwera
 Zaktualizuj pakiet serwera:
-sudo apt update && sudo apt upgrade -y
+`sudo apt update && sudo apt upgrade -y`
 
 Zainstaluj Pythona 3 i pip:
-sudo apt install python3 python3-pip -y
+`sudo apt install python3 python3-pip -y`
 
 Krok 2: Przygotowanie aplikacji
 Skopiuj pliki aplikacji na serwer:
 Użyj narzędzia do przesyłania plików, np. scp, aby skopiować pliki app.py i inne związane z aplikacją na serwer. Na przykład:
-scp /ścieżka/do/app.py użytkownik@adres_serwera:/ścieżka/na/serwerze
+
+`scp /ścieżka/do/app.py użytkownik@adres_serwera:/ścieżka/na/serwerze`
 
 Powtórz tę operację dla wszystkich niezbędnych plików, w tym szablonów HTML, plików konfiguracyjnych itp.
 
 Zainstaluj wymagane biblioteki:
-flask
+`flask
 pandas
-numpy
+numpy`
 
 # Dodaj inne potrzebne biblioteki
 Zainstaluj wymagane biblioteki używając pip:
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 Krok 3: Uruchomienie aplikacji
 Uruchom aplikację:
 
 W terminalu przejdź do folderu, w którym znajdują się pliki aplikacji. Użyj poniższego polecenia, aby uruchomić aplikację:
-python3 app.py
+`python3 app.py`
 
 Polecenie to uruchomi serwer Flask
 
 Dostęp do aplikacji:
 Po uruchomieniu aplikacji powinna być dostępna pod adresem IP serwera na wybranym porcie (domyślnie Flask używa portu 5000). Aby uzyskać dostęp do aplikacji, wpisz w przeglądarce:
 
-http://adres_serwera:5000
+`http://adres_serwera:5000`
 
 Dodatkowe uwagi
 Jeśli planujesz udostępnić aplikację publicznie, rozważ użycie serwera proxy, np. Nginx, do obsługi ruchu HTTPS i przekierowywania ruchu do aplikacji.
 Możesz również skonfigurować firewall (np. ufw) oraz zaktualizować ustawienia bezpieczeństwa serwera, aby zabezpieczyć dostęp do aplikacji.
 Do zarządzania aplikacją produkcyjną rozważ użycie narzędzia jak Gunicorn (dla aplikacji Flask/Django) w połączeniu z Nginx jako serwerem proxy.
 
-const helper = new Helper(<DXF String>)
 
-// The 1-to-1 object representation of the DXF
-console.log('parsed:', helper.parsed)
-
-// Denormalised blocks inserted with transforms applied
-console.log('denormalised:', helper.denormalised)
-
-// Create an SVG
-console.log('svg:', helper.toSVG())
-
-// Create polylines (e.g. to render in WebGL)
-console.log('polylines:', helper.toPolylines())
