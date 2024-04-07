@@ -2,6 +2,8 @@
 
 # Aplikacja do konwersji DXF do OMA dla optyków
 
+![DXF to OMA](https://github.com/pzla07/dxftooma/blob/main/picture.jpg?raw=true)
+
 ## Opis
 
 Niniejsza aplikacja została stworzona z myślą o optykach i specjalistach zajmujących się produkcją szkieł okularowych. Jej głównym celem jest ułatwienie procesu tworzenia szkieł poprzez automatyzację konwersji rysunków technicznych z formatu DXF (Drawing Exchange Format) do formatu OMA (Optical Manufacturing Association), który jest bezpośrednio gotowy do użycia na maszynach do szlifowania szkieł.
@@ -97,6 +99,8 @@ ________________________________________________________________________________
 dxftooma
 
 DXF to OMA Conversion Application for Opticians
+
+![DXF to OMA](https://github.com/pzla07/dxftooma/blob/main/picture.jpg?raw=true)
 
 Description
 
