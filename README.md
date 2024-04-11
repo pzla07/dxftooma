@@ -24,7 +24,7 @@ Program jest dostępny bezpłatnie i może być używany do dowolnych celów, za
 
 Jeśli uznasz ten program za przydatny i chciałbyś wesprzeć społeczność, rozważ wsparcie dla biednych dzieci poprzez poniższy link:
 
-https://www.paypal.com/donate?token=3CffS0zQejqONZsiNBDpvH5MhoLv_8V1XELBgpde7T-GaSO3n7qXTiTlu0-rMgB-4U6uix_FptS2yRRs
+https://fundacjaiskierka.pl/jak-pomoc/przelew-paypal-platnosc-karta-kredytowa/
 
 Twoje wsparcie może zrobić dużą różnicę!
 
@@ -121,7 +121,7 @@ Support
 
 If you find this program useful and would like to support the community, consider supporting poor children through the following link:
 
-https://www.paypal.com/donate?token=3CffS0zQejqONZsiNBDpvH5MhoLv_8V1XELBgpde7T-GaSO3n7qXTiTlu0-rMgB-4U6uix_FptS2yRRs
+https://fundacjaiskierka.pl/jak-pomoc/przelew-paypal-platnosc-karta-kredytowa/
 
 Your support can make a big difference!
 
